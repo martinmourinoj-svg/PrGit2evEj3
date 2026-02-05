@@ -11,7 +11,7 @@ public class Empresa {
 
         d1.setNumEmpleados(d1.getNumEmpleados() + 1);
         d1.anadir(e1);
-
+//Versión 1 verificada
         System.out.println(d1);
     }
 }
