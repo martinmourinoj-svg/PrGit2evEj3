@@ -4,9 +4,9 @@ public class Empresa {
         Empleado e1 = new Empleado("Juan", 33, 25000.6);
 
         System.out.println(e1);
-
-        Departamento d1 = new Departamento();
-        d1.setNombre("Informática");
+/*Departamento d1= new Departamento();
+d1.setNombre("Informática");*/
+        Departamento d1 = new Departamento("Informática");
         d1.setNumEmpleados(25);
 
         d1.setNumEmpleados(d1.getNumEmpleados() + 1);
